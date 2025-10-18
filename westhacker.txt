@@ -1,1 +1,4 @@
-loadstring(game:HttpGet("http://145.223.85.59:8080/roblox/west.lua"))()
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+LocalPlayer:Kick("script has been stopped by owner")
